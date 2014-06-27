@@ -1,0 +1,135 @@
+﻿//Като основен проблем - не успях да кача вдясно навигацията, която се намира в aside...
+
+html, body, header, footer, aside, section, div, p, ul, li, a, article, h1, h2, strong, em {
+    margin:0;
+    padding:0;
+}
+
+header, footer, nav, section, article, aside {
+display:block;// Указваме, заради старите браузъри, които може да не знаят какво са те и ще ги рендира, като текстови елементи. 
+}
+
+.linear-gradient(@from-color,@from-pos,@to-color,@to-pos,@repeat: no-repeat) {
+    background: @to-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{from-color}', endColorstr='@{to-color}',GradientType=0 );
+    background-repeat: @repeat;
+}
+
+body {
+    @default-bg-color: #9215F2;
+    @degault-font-zise: 12px;
+    @default-font-family: normal Arial, 'Times New Roman';
+    @default-font-color: #ffffff;
+    @nav-from-bg-color: #D593FF;
+    @border-section: solid 1px black;
+
+    background-color: @default-bg-color;
+    font-size: @degault-font-zise;
+    font-family: @default-font-family;
+    color: @default-font-color;
+
+    header {
+        div#header-container {
+            .linear-gradient(@nav-from-bg-color,0,@default-bg-color,100%);
+            margin-bottom: 25px;
+            padding: 25px;
+        }
+
+        input,button {
+            background: @default-bg-color;
+            border-radius: 10px;
+            border: @border-section;
+        }
+       
+        h1 {
+            font-size: 1.5em;
+            color: @default-font-color;
+        }
+
+        div#reg-form-container {
+            text-align: right;
+        }
+
+        nav {
+            margin-left: 20px;
+            padding: 10px;
+            font-size: 1.5em;
+            display: block;
+            border: @border-section;
+            border-radius: 20px;
+
+
+            ul {
+                list-style-type: none;
+
+
+                li {
+                    display: inline-block;
+                    padding: 5px;
+
+                    a {
+                        color: @default-font-color;
+                        text-decoration: none;
+                    }
+
+                    ul {
+                        display: none;
+                        margin-left: 15px;
+                    }
+
+                    &:hover {
+                        & > a {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    article {
+        margin: 20px;
+        padding: 30px;
+        border: @border-section;
+        border-radius: 20px;
+
+        a {
+            text-decoration: none;
+            color: #D4A3F8;
+        }
+    }
+
+    article > footer > p {
+        text-align: right;
+        margin-top: 5px;
+    }
+
+    aside {
+        margin: 20px;
+        padding: 30px;
+        border: @border-section;
+        border-radius: 20px;
+        position: relative;
+        display: inline-block;
+        //position:absolute;
+    }
+
+    footer {
+        p {
+            text-align: center;
+            font-size:1.3em;
+        }
+                
+    }
+}
+
+
+
+
+

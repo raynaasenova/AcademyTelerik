@@ -1,0 +1,53 @@
+/* CSS Document */
+section {
+    width: 405px; 
+    font: 12px/1.2 Segoe UI, sans-serif;    
+    border:solid;
+    border-width:1px;
+    border-color:#808080;
+    background: -webkit-linear-gradient(#F0F0F0 0px, #c8dbee 100px);
+    background:    -moz-linear-gradient(#F0F0F0 0px, #c8dbee 100px);
+    background:      -o-linear-gradient(#F0F0F0 0px, #c8dbee 100px);
+    background:         linear-gradient(#F0F0F0 0px, #c8dbee 100px);
+}        
+ul, li {
+    font-size:14px;
+    margin: 5px;
+    padding: 0;
+    display: inline;            
+}
+
+.one {
+    width: 405px;
+    margin-top:5px;
+}
+
+div input {
+     width: 380px;
+     height:40px;
+     margin:10px;     
+     font-size:20px;
+    text-align:right;
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #c8dbee, #F0F0F0);
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c8dbee), to(#F0F0F0));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient( #c8dbee, #F0F0F0);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient( #c8dbee, #F0F0F0);
+}
+ .two {
+     width: 380px;
+     border:solid;
+     margin:10px;
+     margin-top:0;
+     border-width:1px;
+     border-color:#808080;
+ }
+td{
+    font-size:12px;
+    font-family:Consolas;
+    word-spacing:45px;
+    text-align:right;
+    }

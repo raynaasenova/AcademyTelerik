@@ -1,0 +1,112 @@
+html,
+body,
+header,
+footer,
+aside,
+section,
+div,
+p,
+ul,
+li,
+a,
+article,
+h1,
+h2,
+strong,
+em {
+  margin: 0;
+  padding: 0;
+}
+header,
+footer,
+nav,
+section,
+article,
+aside {
+  display: block;
+}
+body {
+  background-color: #9215f2;
+  font-size: 12px;
+  font-family: normal Arial, 'Times New Roman';
+  color: #ffffff;
+}
+body header div#header-container {
+  background: #9215f2;
+  background: -moz-linear-gradient(top, #d593ff 0, #9215f2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d593ff), color-stop(100%, #9215f2));
+  background: -webkit-linear-gradient(top, #d593ff 0, #9215f2 100%);
+  background: -o-linear-gradient(top, #d593ff 0, #9215f2 100%);
+  background: -ms-linear-gradient(top, #d593ff 0, #9215f2 100%);
+  background: linear-gradient(to bottom, #d593ff 0, #9215f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d593ff', endColorstr='#9215f2', GradientType=0);
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+body header input,
+body header button {
+  background: #9215f2;
+  border-radius: 10px;
+  border: solid 1px #000000;
+}
+body header h1 {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+body header div#reg-form-container {
+  text-align: right;
+}
+body header nav {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 1.5em;
+  display: block;
+  border: solid 1px #000000;
+  border-radius: 20px;
+}
+body header nav ul {
+  list-style-type: none;
+}
+body header nav ul li {
+  display: inline-block;
+  padding: 5px;
+}
+body header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body header nav ul li ul {
+  display: none;
+  margin-left: 15px;
+}
+body header nav ul li:hover > a {
+  text-decoration: underline;
+}
+body article {
+  margin: 20px;
+  padding: 30px;
+  border: solid 1px #000000;
+  border-radius: 20px;
+}
+body article a {
+  text-decoration: none;
+  color: #D4A3F8;
+}
+body article > footer > p {
+  text-align: right;
+  margin-top: 5px;
+}
+body aside {
+  margin: 20px;
+  padding: 30px;
+  border: solid 1px #000000;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+}
+body footer p {
+  text-align: center;
+  font-size: 1.3em;
+}
+/*# sourceMappingURL=homework.css.map */
