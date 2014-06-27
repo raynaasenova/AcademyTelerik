@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+</head>
+<body>
+<form name="Calculator">
+    <table border="1"cellspacing ="0" cellpadding="0">
+        <tr>
+            <td colspan="4">
+                <input type="text" readonly size="14" id="d" value="123">
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><input type="button" value="1" onclick='v("1")'></td>
+            <td align="center"><input type="button" value="2" onclick='v("2")'></td>
+            <td align="center"><input type="button" value="3" onclick='v("3")'></td>
+            <td align="center"><input type="button" class="button pink" value="+" onclick='v("+")'></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="button" value="4" onclick='v("4")'></td>
+            <td align="center"><input type="button" value="5" onclick='v("5")'></td>
+            <td align="center"><input type="button" value="6" onclick='v("6")'></td>
+            <td align="center"><input type="button" value="-" onclick='v("-")'></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="button" value="7" onclick='v("7")'></td>
+            <td align="center"><input type="button" value="8" onclick='v("8")'></td>
+            <td align="center"><input type="button" value="9" onclick='v("9")'></td>
+            <td align="center"><input type="button" value="*" onclick='v("*")'></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="button" value="0" onclick='v("0")'></td>
+            <td align="center"><input type="button" value="." onclick='v(".")'></td>
+            <td align="center"><input type="button" value="/" onclick='v("/")'></td>
+        </tr>
+    </table>
+</form> 
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{136CB99C-681F-4FEA-B654-FAB246CA1C6A}"
+	ProjectSection(SolutionItems) = preProject
+		LinkedIn.html = LinkedIn.html
+		RefactorThehomework.html = RefactorThehomework.html
+		SemanticPage.html = SemanticPage.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{72EE033D-7658-4924-A647-C81A38B30D61}"
+	ProjectSection(SolutionItems) = preProject
+		img\logo.jpg = img\logo.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72EE033D-7658-4924-A647-C81A38B30D61} = {136CB99C-681F-4FEA-B654-FAB246CA1C6A}
+	EndGlobalSection
+EndGlobal

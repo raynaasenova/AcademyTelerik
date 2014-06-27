@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF326215-8AA0-4D5F-B719-5F83B952149C}"
+	ProjectSection(SolutionItems) = preProject
+		Calculator.html = Calculator.html
+		FreshFruits.html = FreshFruits.html
+		Letters.html = Letters.html
+		PersonData.html = PersonData.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{7B21E5B0-7F3A-43C7-8F7F-27B77C03D8DE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\img\fresh-fruits.png = ..\..\img\fresh-fruits.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B21E5B0-7F3A-43C7-8F7F-27B77C03D8DE} = {AF326215-8AA0-4D5F-B719-5F83B952149C}
+	EndGlobalSection
+EndGlobal
