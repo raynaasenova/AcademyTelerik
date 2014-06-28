@@ -1,1 +1,1 @@
-Academy Telerik
+Academy Telerik - C#
