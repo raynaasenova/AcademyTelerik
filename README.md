@@ -1,1 +1,2 @@
-Academy Telerik - C#
+Academy Telerik
+http://academy.telerik.com/
